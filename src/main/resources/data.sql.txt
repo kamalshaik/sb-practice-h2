@@ -1,0 +1,4 @@
+insert into address (city,door_no,pin_no,state,street,id) values ('HYD','123',1234,'TG','PSN',1);
+insert into address (city,door_no,pin_no,state,street,id) values ('BVG','343',534,'AP','BVG',2);
+update address set employee_id_join_cloumn=1 where id=1;
+update address set employee_id_join_cloumn=1 where id=2;
