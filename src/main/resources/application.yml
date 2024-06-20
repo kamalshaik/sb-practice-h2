@@ -1,7 +1,17 @@
 server: 
   port: 9000
 
+
+#2nd way of security approac
+# spring:  security:    user:     name: skh
+#                                  password: skhskh 
 spring:
+  security: 
+    user:
+      name: skh
+      password: skhskh 
+      
+      
 #  sql: 
 #    init: 
 #      data-locations: classpath:data.sql
