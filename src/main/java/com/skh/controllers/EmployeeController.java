@@ -66,7 +66,7 @@ public class EmployeeController {
 		Address address1 = new Address(1, "1", "PSN", "Hyd", "TG", 534456);
 		Address address2 = new Address(2, "2", "BVG", "ELR", "AP", 123456);
 		// Address address3 = new Address(1, "3", "GB", "BGR", "KA", 534123);
-		return new Employee(1, "Kamal", new Date(), 1234d, true, List.of(address1, address2));
+		return new Employee(1, "KamalSK", new Date(), 1234d, true, List.of(address1, address2));
 	}
 
 	@GetMapping("/")
